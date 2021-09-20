@@ -1,0 +1,28 @@
+
+$basic-border: 1px solid black;
+$highlight-color: #f90;
+$nav-color: #F90;
+  
+body {
+    nav {
+        $width: 100px;
+        width: $width;
+        color: $nav-color;
+        background-color: black
+      } 
+  #app {
+    background-color:  $highlight-color;
+    border: $basic-border
+}     
+#content {
+    article {
+      h1 { color: #1dc08a }
+      p {  font-style: italic; }
+      a {
+        color: blue;
+        &:hover { color: red }
+      }
+    }
+    aside { background-color: #f90 }
+  }
+}

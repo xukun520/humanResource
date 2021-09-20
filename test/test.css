@@ -1,0 +1,30 @@
+body nav {
+  width: 100px;
+  color: #F90;
+  background-color: black;
+}
+
+body #app {
+  background-color: #f90;
+  border: 1px solid black;
+}
+
+body #content article h1 {
+  color: #1dc08a;
+}
+
+body #content article p {
+  font-style: italic;
+}
+
+body #content article a {
+  color: blue;
+}
+
+body #content article a:hover {
+  color: red;
+}
+
+body #content aside {
+  background-color: #f90;
+}
